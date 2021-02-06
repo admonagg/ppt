@@ -71,7 +71,7 @@ public class MoveWords{
 	    // "LAGARTIJA" = 3
 	    // "SPOCK" = 4
 	    
-	    if (first_i == 0 & (second_i == 1 || second_i == 3)) {
+	    if (first_i == 0 && (second_i == 1 || second_i == 3)) {
 	    	return GANA;
 	    } else if (first_i == 1 && (second_i == 2 || second_i == 4)) {
 	    	return GANA;
